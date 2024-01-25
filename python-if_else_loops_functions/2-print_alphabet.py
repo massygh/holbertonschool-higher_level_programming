@@ -1,3 +1,5 @@
 #!/usr/bin/python3
 
-print("abcdefghijklmnopqrstuvwxyz", end="")
+for char_code in range(ord('a'), ord('z') + 1):
+    character = chr(char_code)
+    print(f"{character}", end='')
