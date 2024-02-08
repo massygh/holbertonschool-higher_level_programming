@@ -1,7 +1,9 @@
 #!/usr/bin/python3
 """
-define square
+Define a square class
 """
 
+
 class Square:
+    """Define the square attribute"""
     pass
