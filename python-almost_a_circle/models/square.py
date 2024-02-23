@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""write a class"""
+"""write a class""" 1
 from models.rectangle import Rectangle
 
 
