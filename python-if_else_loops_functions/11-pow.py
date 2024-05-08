@@ -6,4 +6,3 @@ def pow(a, b):
     if b < 0:                   # Si b est négatif
         return 1 / result       # Étape 4: Si b est négatif, on retourne l'inverse du résultat
     return result
-
