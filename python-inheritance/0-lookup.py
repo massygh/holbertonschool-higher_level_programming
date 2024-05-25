@@ -1,4 +1,12 @@
 #!/usr/bin/python3
+"""
+Lookup order in python
+"""
+
+
 def lookup(obj):
-    """Returns the list of available attributes and methods of an object"""
+    """
+    Lookup order
+    """
+
     return dir(obj)
