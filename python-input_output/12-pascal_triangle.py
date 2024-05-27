@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module to create a class"""
 
+
 def pascal_triangle(n):
     """Returns a list of lists of integers the Pascal’s triangle of n"""
     if n <= 0:
