@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""JSON file saving module."""
 import json
 
 def load_from_json_file(filename):
