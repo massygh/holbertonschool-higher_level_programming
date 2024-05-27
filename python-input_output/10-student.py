@@ -24,7 +24,7 @@ class Student:
             attrs (list): A list of attribute names to retrieve.
 
         Returns:
-            dict: A dictionary representation of the instance with specified attributes.
+            dict: A dictionary representation of the instance with attributes.
         """
         if attrs is None:
             return self.__dict__
