@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Module to create a class"""
 
+
 class Student:
     def __init__(self, first_name, last_name, age):
         """
@@ -23,7 +24,7 @@ class Student:
             attrs (list): A list of attribute names to retrieve.
 
         Returns:
-            dict: A dictionary representation of the instance with specified attributes.
+            dict: A dictionary representation of the instance with attributes.
         """
         if attrs is None:
             return self.__dict__
@@ -36,7 +37,7 @@ class Student:
 
     def reload_from_json(self, json):
         """
-        Replaces all attributes of the Student instance with those in the dictionary.
+        Replaces all attributes of the Student with those in the dictionary.
 
         Args:
             json (dict): A dictionary containing attribute names and values.
