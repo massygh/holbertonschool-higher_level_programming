@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Module to save a json file"""
 import sys
-from 5-save_to_json_file import save_to_json_file
-from 6-load_from_json_file import load_from_json_file
+from "5-save_to_json_file" import save_to_json_file
+from "6-load_from_json_file" import load_from_json_file
 
 def add_to_list_and_save(args):
     try:
