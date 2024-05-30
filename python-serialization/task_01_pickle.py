@@ -1,5 +1,6 @@
 import pickle
 
+
 class CustomObject:
     def __init__(self, name, age, is_student):
         self.name = name
@@ -13,8 +14,7 @@ class CustomObject:
 
     def serialize(self, filename):
         """
-        Sérialise l'instance actuelle de l'objet et l'enregistre dans le fichier fourni.
-        
+        Sérialise l'instance actuelle de l'objet et l'enregistre
         :param filename: Nom du fichier où l'objet sera sérialisé.
         """
         try:
@@ -27,8 +27,7 @@ class CustomObject:
     @classmethod
     def deserialize(cls, filename):
         """
-        Charge et retourne une instance de CustomObject à partir du fichier fourni.
-        
+        Charge et retourne une instance de CustomObject à partir du fichier
         :param filename: Nom du fichier où l'objet est sérialisé.
         :return: Instance de CustomObject ou None en cas d'erreur.
         """
@@ -42,6 +41,8 @@ class CustomObject:
             return None
 
 # Exemple d'utilisation
+
+
 if __name__ == "__main__":
     # Crée une instance de CustomObject
     obj = CustomObject(name="John", age=25, is_student=True)
